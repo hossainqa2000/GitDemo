@@ -56,6 +56,4 @@ public class uitestpracticeLoginPageTest extends BaseClass {
     }
 
 }//Class End
-//Class End
-//Class End
-//Class End
+

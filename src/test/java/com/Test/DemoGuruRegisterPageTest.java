@@ -14,6 +14,10 @@ public class DemoGuruRegisterPageTest extends BaseClass {
     public void initializeuitestpracticeLoginPage() {
         dgTP= PageFactory.initElements(driver, DemoGuruRegisterPage.class);
     }
+ @BeforeMethod
+    public void initializeuitestpracticeLoginPage() {
+        dgTP= PageFactory.initElements(driver, DemoGuruRegisterPage.class);
+    }
 
     @Test(dataProvider = "dgTPdata")
     public void UserApplicationForm(String Fname, String Lname, String Pno, String Email, String Address, String City, String State, String PostalCode,
@@ -45,6 +49,8 @@ public class DemoGuruRegisterPageTest extends BaseClass {
                 {"Emrul","Emran","9292854201","emrul@gmail.com","10019 204th ST","Jamaica","New York","11432","UNITED STATES","emran7700","abcdabcd","abcdabcd"},
                 {"Shahed","Noor","3929382462","noor@gmail.com","8835 214th ST","Jamaica","New York","11432","UNITED STATES","shahedny","1234abcd","12344859"},
                 {"Rahman","Shafin","7162854007","shafin@gmail.com","1315 post Ave","Elmond","New York","11111","UNITED STATES","shafin231","1234abcd","12najd54"},
+			{"Rahman","Shafin","7162854007","shafin@gmail.com","1315 post Ave","Elmond","New York","11111","UNITED STATES","shafin231","1234abcd","12najd54"},
+
 
 
         };
