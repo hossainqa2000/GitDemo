@@ -84,7 +84,11 @@ public class DemoGuruRegisterPage extends BaseClass {
     }
 
 
-
+   @FindBy(name="submit")
+    WebElement submitBTN;
+    public void clickOnSubmitBTN(){
+        submitBTN.click();
+    }
 
 
 
