@@ -51,7 +51,7 @@ public class DemoGuruRegisterPageTest extends BaseClass {
                 {"Rahman","Shafin","7162854007","shafin@gmail.com","1315 post Ave","Elmond","New York","11111","UNITED STATES","shafin231","1234abcd","12najd54"},
 			{"Rahman","Shafin","7162854007","shafin@gmail.com","1315 post Ave","Elmond","New York","11111","UNITED STATES","shafin231","1234abcd","12najd54"},
 
-
+			{"Rahman","Shafin","7162854007","shafin@gmail.com","1315 post Ave","Elmond","New York","11111","UNITED STATES","shafin231","1234abcd","12najd54"},
 
         };
     }
