@@ -88,6 +88,10 @@ public class DemoGuruRegisterPage extends BaseClass {
     WebElement submitBTN;
     public void clickOnSubmitBTN(){
         submitBTN.click();
+	 submitBTN.click();
+ 	submitBTN.click();
+ 	submitBTN.click();
+ 	submitBTN.click();
     }
 
 
